@@ -1,0 +1,81 @@
+
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    border:1px solid black;
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    
+
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, 
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsfSgLjA-8xidm9UvazvoOngmXQp0gdqhCEw&usqp=CAUS") center;
+    background-size: cover;
+    color: #ffffff;
+   
+}
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    height: 350px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0xp 10xp 50xp rgba(0, 0, 0, 0.7);
+}
+.flex-box-rps img:hover{
+    box-shadow: 0xp 10xp 50xp rgba(37, 50, 233, 1);
+}
+
+input[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+font-size: 25px;
+}
+input[type=button]:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
